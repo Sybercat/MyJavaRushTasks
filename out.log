@@ -11100,3 +11100,12 @@ java.lang.NullPointerException
 2019-02-20 19:14:46 INFO  ApacheHttpClient.completed(27) - responseCode = 200
 2019-02-20 19:14:46 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
 2019-02-20 19:15:45 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-02-20 19:16:33 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-02-20 19:16:34 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-02-20 19:16:36 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-02-20 19:16:38 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-02-20 19:16:38 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-02-20 19:16:41 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-02-20 19:16:41 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-02-20 19:16:41 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-02-20 19:16:45 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
