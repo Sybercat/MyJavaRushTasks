@@ -14,12 +14,27 @@ public class Solution {
     }
     
     static {
+        try {
+            reset();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         //add your code here - добавьте код тут
     }
 
     public static CanFly result;
 
-    public static void reset() {
+    public static void reset() throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String s = reader.readLine();
+        if (s.equals("helicopter")){
+            result = new Helicopter();
+        }
+        else if (s.equals("plane")){
+            int pCount = Integer.parseInt(reader.readLine());
+            result = new Plane(pCount);
+        }
+        reader.close();
         //add your code here - добавьте код тут
     }
 }
